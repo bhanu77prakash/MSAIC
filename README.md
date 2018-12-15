@@ -9,12 +9,15 @@
 ## Running
 <ol>
   <li>
-    python train.py $train_file_name<including .tsv>$
+    python train.py <b><i>train_file_name(including .tsv)</i></b>
   </li>
-  </ol>
+</ol>
+
 ## File ordering
-Place the training data in $data$ folder in the current directory\\
-Place the $test_file$ in $data$ directory\\ 
+
+Place the training data in <b><i>data</i></b> folder in the current directory<br>
+Place the <b><i>test_file</i></b> in <b><i>data</i></b> directory<br>
 In case preprocessed files obtained after training for the first time are available, put them in the data directory so that model loads them and don't preprocess again.
+
 ## Output
-Trained model, preprocessed files and test file output named as $answer.tsv$
+Trained model, preprocessed files and test file output named as <b><i>answer.tsv</i></b>
