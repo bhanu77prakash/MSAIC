@@ -21,3 +21,6 @@ In case preprocessed files obtained after training for the first time are availa
 
 ## Output
 Trained model, preprocessed files and test file output named as <b><i>answer.tsv</i></b>
+
+
+Updated some bugs
